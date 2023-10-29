@@ -12,7 +12,11 @@ export class LoginCodesService implements OnModuleInit {
   ) {}
 
   async onModuleInit() {
-    this.loginCodesRepository.clear();
+    try {
+      // this.loginCodesRepository.clear();
+    } catch(e) {
+      console.error(e);
+    }
   }
 
   countCode(code: string): Promise<number> {

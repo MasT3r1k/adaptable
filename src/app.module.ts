@@ -94,13 +94,8 @@ let database = config.database;
     LogincodesModule,
     
     TypeOrmModule.forRoot({
-      type: 'mongodb',
       url: database.url,
-      host: database.host,
-      port: database.port,
-      username: database.username,
-      password: database.password,
-      database: database.databaseName,
+      type: 'mongodb',
       autoLoadEntities: true,
       logging: true,
       synchronize: false,
