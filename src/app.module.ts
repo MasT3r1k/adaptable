@@ -95,6 +95,7 @@ let database = config.database;
     
     TypeOrmModule.forRoot({
       type: 'mongodb',
+      url: '',
       host: database.host,
       port: database.port,
       username: database.username,
