@@ -94,7 +94,7 @@ let database = config.database;
     LogincodesModule,
     
     TypeOrmModule.forRoot({
-      type: 'mariadb',
+      type: 'mongodb',
       host: database.host,
       port: database.port,
       username: database.username,
@@ -106,7 +106,6 @@ let database = config.database;
       retryAttempts: 9999,
       retryDelay: 5000,
       cache: true,
-      timezone: 'local'
     }),
   
   ],
