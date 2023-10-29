@@ -1,0 +1,33 @@
+absence ✓
+addresses ✓
+attachments ✓
+attachmentsconnection ✓
+cities ✓
+class ✓
+degree ✓
+degreeslist ✓
+group ✓
+homework ✓
+lesson ✓
+lessonclass ✓
+markcolumns ✓
+marks ✓
+nationalities ✓
+person ✓
+room ✓
+scopes ✓
+student ✓ 
+studentconnection ✓
+studentgroup ✓
+subject ✓
+teacher ✓
+teachersubject ✓
+tokens ✓
+user ✓
+
+Přidáno: tokens, roomconnection, studentgroup
+Upraveno: room - odebrán teacherId -> přesunuto do roomconnection, přidáno type - typ místnosti
+
+Nové nápady do systému:
+ 1) Přidat a odebrat z batohu
+ 2) Najít kabinet učitele

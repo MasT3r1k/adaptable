@@ -1,0 +1,1 @@
+export type RoomTypes = 'class' | 'cabinet' | 'laboratory' | 'workshop';

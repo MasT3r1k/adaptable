@@ -1,0 +1,6108 @@
+{
+  "nodes": {
+    "64887763": {
+      "id": "64887763",
+      "label": "ApplicationConfig",
+      "parent": "861740974",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PersonModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "93508497": {
+      "id": "93508497",
+      "label": "ModuleRef",
+      "parent": "777159371",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "SubjectModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "112527689": {
+      "id": "112527689",
+      "label": "HomeworkModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "126843339": {
+      "id": "126843339",
+      "label": "ModuleRef",
+      "parent": "148896593",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LessonModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "148896593": {
+      "id": "148896593",
+      "label": "LessonModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "150660448": {
+      "id": "150660448",
+      "label": "ModuleRef",
+      "parent": "1768558694",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MarkModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "166043626": {
+      "id": "166043626",
+      "label": "AttachConnModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "203550704": {
+      "id": "203550704",
+      "label": "ExternalContextCreator",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "ExternalContextCreator"
+      }
+    },
+    "225063248": {
+      "id": "225063248",
+      "label": "InternalCoreModule",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "InternalCoreModule",
+        "initTime": 187.4319000095129
+      }
+    },
+    "233936880": {
+      "id": "233936880",
+      "label": "AppController",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "controller",
+        "internal": false,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "AppController"
+      }
+    },
+    "242809856": {
+      "id": "242809856",
+      "label": "AddressModule",
+      "parent": "-74345581",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AddressModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AddressModule",
+        "initTime": 184.5063000023365
+      }
+    },
+    "257773924": {
+      "id": "257773924",
+      "label": "ModuleRef",
+      "parent": "166043626",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AttachConnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "266839889": {
+      "id": "266839889",
+      "label": "EntityManager",
+      "parent": "-1026304274",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "EntityManager"
+      }
+    },
+    "295165724": {
+      "id": "295165724",
+      "label": "AbsenceModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "350522776": {
+      "id": "350522776",
+      "label": "TokensRepository",
+      "parent": "545846241",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "TokensRepository"
+      }
+    },
+    "378746689": {
+      "id": "378746689",
+      "label": "AttachConnService",
+      "parent": "166043626",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AttachConnModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "AttachConnService"
+      }
+    },
+    "389833481": {
+      "id": "389833481",
+      "label": "CitiesRepository",
+      "parent": "545846245",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CitiesRepository"
+      }
+    },
+    "394187075": {
+      "id": "394187075",
+      "label": "ModuleRef",
+      "parent": "112527689",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "HomeworkModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "475077870": {
+      "id": "475077870",
+      "label": "ModuleRef",
+      "parent": "2092976116",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "RoomModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "545846241": {
+      "id": "545846241",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "545846242": {
+      "id": "545846242",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "545846243": {
+      "id": "545846243",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "545846244": {
+      "id": "545846244",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "545846245": {
+      "id": "545846245",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "545846246": {
+      "id": "545846246",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "545846247": {
+      "id": "545846247",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "545846248": {
+      "id": "545846248",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "545846249": {
+      "id": "545846249",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "555176277": {
+      "id": "555176277",
+      "label": "InternalCoreModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": true
+      }
+    },
+    "608962878": {
+      "id": "608962878",
+      "label": "TypeOrmModule",
+      "parent": "-258635665",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.51650001108646
+      }
+    },
+    "608962879": {
+      "id": "608962879",
+      "label": "TypeOrmModule",
+      "parent": "-258635664",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.36519999802113
+      }
+    },
+    "608962880": {
+      "id": "608962880",
+      "label": "TypeOrmModule",
+      "parent": "-258635663",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.32179999351501
+      }
+    },
+    "608962881": {
+      "id": "608962881",
+      "label": "TypeOrmModule",
+      "parent": "-258635662",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.28020000457764
+      }
+    },
+    "608962882": {
+      "id": "608962882",
+      "label": "TypeOrmModule",
+      "parent": "-258635661",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.21109999716282
+      }
+    },
+    "608962883": {
+      "id": "608962883",
+      "label": "TypeOrmModule",
+      "parent": "-258635660",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.14280000329018
+      }
+    },
+    "608962884": {
+      "id": "608962884",
+      "label": "TypeOrmModule",
+      "parent": "-258635659",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.05300000309944
+      }
+    },
+    "608962885": {
+      "id": "608962885",
+      "label": "TypeOrmModule",
+      "parent": "-258635658",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 182.9990999996662
+      }
+    },
+    "608962886": {
+      "id": "608962886",
+      "label": "TypeOrmModule",
+      "parent": "-258635657",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 182.92239999771118
+      }
+    },
+    "608962887": {
+      "id": "608962887",
+      "label": "TypeOrmModule",
+      "parent": "-258635656",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 182.8847000002861
+      }
+    },
+    "608962909": {
+      "id": "608962909",
+      "label": "TypeOrmModule",
+      "parent": "-258635634",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 182.8255999982357
+      }
+    },
+    "608962910": {
+      "id": "608962910",
+      "label": "TypeOrmModule",
+      "parent": "-258635633",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 182.78010000288486
+      }
+    },
+    "608962911": {
+      "id": "608962911",
+      "label": "TypeOrmModule",
+      "parent": "-258635632",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 182.73709999024868
+      }
+    },
+    "608962912": {
+      "id": "608962912",
+      "label": "TypeOrmModule",
+      "parent": "-258635631",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 182.6684000045061
+      }
+    },
+    "608962913": {
+      "id": "608962913",
+      "label": "TypeOrmModule",
+      "parent": "-258635630",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 176.67530000209808
+      }
+    },
+    "608962914": {
+      "id": "608962914",
+      "label": "TypeOrmModule",
+      "parent": "-258635629",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 176.53689999878407
+      }
+    },
+    "608962915": {
+      "id": "608962915",
+      "label": "TypeOrmModule",
+      "parent": "-258635628",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 176.5236999988556
+      }
+    },
+    "611315161": {
+      "id": "611315161",
+      "label": "ApplicationConfig",
+      "parent": "-748453218",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "GroupModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "636308708": {
+      "id": "636308708",
+      "label": "ModuleRef",
+      "parent": "-748453218",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "GroupModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "643684445": {
+      "id": "643684445",
+      "label": "StudentGroupModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "671882984": {
+      "id": "671882984",
+      "label": "Reflector",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "Reflector",
+        "initTime": 187.15770000219345
+      }
+    },
+    "687352615": {
+      "id": "687352615",
+      "label": "ModuleRef",
+      "parent": "545846241",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "687352616": {
+      "id": "687352616",
+      "label": "ModuleRef",
+      "parent": "545846242",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "687352617": {
+      "id": "687352617",
+      "label": "ModuleRef",
+      "parent": "545846243",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "687352618": {
+      "id": "687352618",
+      "label": "ModuleRef",
+      "parent": "545846244",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "687352619": {
+      "id": "687352619",
+      "label": "ModuleRef",
+      "parent": "545846245",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "687352620": {
+      "id": "687352620",
+      "label": "ModuleRef",
+      "parent": "545846246",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "687352621": {
+      "id": "687352621",
+      "label": "ModuleRef",
+      "parent": "545846247",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "687352622": {
+      "id": "687352622",
+      "label": "ModuleRef",
+      "parent": "545846248",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "687352623": {
+      "id": "687352623",
+      "label": "ModuleRef",
+      "parent": "545846249",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "731684192": {
+      "id": "731684192",
+      "label": "TypeOrmCoreModule",
+      "parent": "-1026304274",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmCoreModule",
+        "initTime": 177.23870000243187
+      }
+    },
+    "777159371": {
+      "id": "777159371",
+      "label": "SubjectModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "808251669": {
+      "id": "808251669",
+      "label": "ApplicationConfig",
+      "parent": "-259102566",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "813946547": {
+      "id": "813946547",
+      "label": "ScopeModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "834990391": {
+      "id": "834990391",
+      "label": "RoomRepository",
+      "parent": "-258635663",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "RoomRepository"
+      }
+    },
+    "839687720": {
+      "id": "839687720",
+      "label": "ModuleRef",
+      "parent": "861740974",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PersonModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "856067923": {
+      "id": "856067923",
+      "label": "GroupRepository",
+      "parent": "-258635660",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "GroupRepository"
+      }
+    },
+    "861740974": {
+      "id": "861740974",
+      "label": "PersonModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "874151276": {
+      "id": "874151276",
+      "label": "DegreeListModule",
+      "parent": "2074806179",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DegreeListModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "DegreeListModule",
+        "initTime": 182.91860000789165
+      }
+    },
+    "884713856": {
+      "id": "884713856",
+      "label": "ClassModule",
+      "parent": "2034915031",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ClassModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ClassModule",
+        "initTime": 183.27339999377728
+      }
+    },
+    "889762948": {
+      "id": "889762948",
+      "label": "CityModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "912245486": {
+      "id": "912245486",
+      "label": "StudentGroupRepository",
+      "parent": "545846249",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "StudentGroupRepository"
+      }
+    },
+    "993008654": {
+      "id": "993008654",
+      "label": "ApplicationConfig",
+      "parent": "-74345581",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AddressModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1029959105": {
+      "id": "1029959105",
+      "label": "AttachService",
+      "parent": "-651526498",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AttachModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "AttachService"
+      }
+    },
+    "1040905601": {
+      "id": "1040905601",
+      "label": "ApplicationConfig",
+      "parent": "-866216996",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MarkColumnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1049179455": {
+      "id": "1049179455",
+      "label": "ScopeService",
+      "parent": "813946547",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ScopeModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "ScopeService"
+      }
+    },
+    "1050093537": {
+      "id": "1050093537",
+      "label": "TokensService",
+      "parent": "-101678541",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TokensModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "TokensService"
+      }
+    },
+    "1116383660": {
+      "id": "1116383660",
+      "label": "ModuleRef",
+      "parent": "-1727255578",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentConnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1130866828": {
+      "id": "1130866828",
+      "label": "TokensModule",
+      "parent": "-101678541",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TokensModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TokensModule",
+        "initTime": 185.31569999456406
+      }
+    },
+    "1138995717": {
+      "id": "1138995717",
+      "label": "ModuleRef",
+      "parent": "-1704643521",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LessonClassModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1139971038": {
+      "id": "1139971038",
+      "label": "ModuleRef",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1253873249": {
+      "id": "1253873249",
+      "label": "HomeworkService",
+      "parent": "112527689",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "HomeworkModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "HomeworkService"
+      }
+    },
+    "1253913981": {
+      "id": "1253913981",
+      "label": "PersonRepository",
+      "parent": "545846242",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "PersonRepository"
+      }
+    },
+    "1359661440": {
+      "id": "1359661440",
+      "label": "LessonClassModule",
+      "parent": "-1704643521",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LessonClassModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "LessonClassModule",
+        "initTime": 183.03310000896454
+      }
+    },
+    "1362519959": {
+      "id": "1362519959",
+      "label": "ApplicationConfig",
+      "parent": "295165724",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AbsenceModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1385838994": {
+      "id": "1385838994",
+      "label": "LessonClassRepository",
+      "parent": "-258635658",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "LessonClassRepository"
+      }
+    },
+    "1390356109": {
+      "id": "1390356109",
+      "label": "StudentService",
+      "parent": "-259102566",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "StudentModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "StudentService"
+      }
+    },
+    "1412685256": {
+      "id": "1412685256",
+      "label": "LessonModule",
+      "parent": "148896593",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LessonModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "LessonModule",
+        "initTime": 183.13969999551773
+      }
+    },
+    "1434456218": {
+      "id": "1434456218",
+      "label": "Reflector",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "Reflector",
+        "initTime": 189.62700000405312
+      }
+    },
+    "1435994129": {
+      "id": "1435994129",
+      "label": "AbsenceService",
+      "parent": "295165724",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AbsenceModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "AbsenceService"
+      }
+    },
+    "1475573941": {
+      "id": "1475573941",
+      "label": "ModuleRef",
+      "parent": "-2135742481",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1490545095": {
+      "id": "1490545095",
+      "label": "ModuleRef",
+      "parent": "-2120771327",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TeacherModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1529900285": {
+      "id": "1529900285",
+      "label": "Connection",
+      "parent": "-1026304274",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "Connection"
+      }
+    },
+    "1558970081": {
+      "id": "1558970081",
+      "label": "ApplicationConfig",
+      "parent": "-1727255578",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentConnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1581582138": {
+      "id": "1581582138",
+      "label": "ApplicationConfig",
+      "parent": "-1704643521",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LessonClassModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1643889312": {
+      "id": "1643889312",
+      "label": "AbsenceModule",
+      "parent": "295165724",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AbsenceModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AbsenceModule",
+        "initTime": 182.88089999556541
+      }
+    },
+    "1648486932": {
+      "id": "1648486932",
+      "label": "ApplicationConfig",
+      "parent": "-258635665",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486933": {
+      "id": "1648486933",
+      "label": "ApplicationConfig",
+      "parent": "-258635664",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486934": {
+      "id": "1648486934",
+      "label": "ApplicationConfig",
+      "parent": "-258635663",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486935": {
+      "id": "1648486935",
+      "label": "ApplicationConfig",
+      "parent": "-258635662",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486936": {
+      "id": "1648486936",
+      "label": "ApplicationConfig",
+      "parent": "-258635661",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486937": {
+      "id": "1648486937",
+      "label": "ApplicationConfig",
+      "parent": "-258635660",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486938": {
+      "id": "1648486938",
+      "label": "ApplicationConfig",
+      "parent": "-258635659",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486939": {
+      "id": "1648486939",
+      "label": "ApplicationConfig",
+      "parent": "-258635658",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486940": {
+      "id": "1648486940",
+      "label": "ApplicationConfig",
+      "parent": "-258635657",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486941": {
+      "id": "1648486941",
+      "label": "ApplicationConfig",
+      "parent": "-258635656",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486963": {
+      "id": "1648486963",
+      "label": "ApplicationConfig",
+      "parent": "-258635634",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486964": {
+      "id": "1648486964",
+      "label": "ApplicationConfig",
+      "parent": "-258635633",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486965": {
+      "id": "1648486965",
+      "label": "ApplicationConfig",
+      "parent": "-258635632",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486966": {
+      "id": "1648486966",
+      "label": "ApplicationConfig",
+      "parent": "-258635631",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486967": {
+      "id": "1648486967",
+      "label": "ApplicationConfig",
+      "parent": "-258635630",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486968": {
+      "id": "1648486968",
+      "label": "ApplicationConfig",
+      "parent": "-258635629",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1648486969": {
+      "id": "1648486969",
+      "label": "ApplicationConfig",
+      "parent": "-258635628",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1677638807": {
+      "id": "1677638807",
+      "label": "Gateway",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "1691379712": {
+      "id": "1691379712",
+      "label": "ScopeModule",
+      "parent": "813946547",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ScopeModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ScopeModule",
+        "initTime": 184.78229999542236
+      }
+    },
+    "1768558694": {
+      "id": "1768558694",
+      "label": "MarkModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "1817334964": {
+      "id": "1817334964",
+      "label": "ModuleRef",
+      "parent": "-1026304274",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1817481088": {
+      "id": "1817481088",
+      "label": "Gateway",
+      "parent": "1677638807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "Gateway",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "Gateway"
+      }
+    },
+    "1844513606": {
+      "id": "1844513606",
+      "label": "ApplicationConfig",
+      "parent": "777159371",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "SubjectModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1903457769": {
+      "id": "1903457769",
+      "label": "ApplicationConfig",
+      "parent": "889762948",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "CityModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1914518578": {
+      "id": "1914518578",
+      "label": "MarkModule",
+      "parent": "1768558694",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MarkModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MarkModule",
+        "initTime": 182.81520000100136
+      }
+    },
+    "1919157847": {
+      "id": "1919157847",
+      "label": "REQUEST",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": false,
+        "scope": 2,
+        "transient": false,
+        "exported": true,
+        "token": "REQUEST",
+        "initTime": 165.58909998834133
+      }
+    },
+    "2018387905": {
+      "id": "2018387905",
+      "label": "PersonService",
+      "parent": "861740974",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "PersonModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "PersonService"
+      }
+    },
+    "2034915031": {
+      "id": "2034915031",
+      "label": "ClassModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "2042352272": {
+      "id": "2042352272",
+      "label": "TeacherRepository",
+      "parent": "-258635665",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "TeacherRepository"
+      }
+    },
+    "2049734150": {
+      "id": "2049734150",
+      "label": "SubjectRepository",
+      "parent": "-258635662",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "SubjectRepository"
+      }
+    },
+    "2073166223": {
+      "id": "2073166223",
+      "label": "ApplicationConfig",
+      "parent": "166043626",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AttachConnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "2074806179": {
+      "id": "2074806179",
+      "label": "DegreeListModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "2075644217": {
+      "id": "2075644217",
+      "label": "TypeOrmModuleOptions",
+      "parent": "-1026304274",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModuleOptions"
+      }
+    },
+    "2092976116": {
+      "id": "2092976116",
+      "label": "RoomModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "2131279511": {
+      "id": "2131279511",
+      "label": "LessonClassService",
+      "parent": "-1704643521",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "LessonClassModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "LessonClassService"
+      }
+    },
+    "-1486320561": {
+      "id": "-1486320561",
+      "label": "ModuleRef",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-651043398": {
+      "id": "-651043398",
+      "label": "ApplicationConfig",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-255469305": {
+      "id": "-255469305",
+      "label": "INQUIRER",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "INQUIRER",
+        "initTime": 165.5714000016451
+      }
+    },
+    "-26938366": {
+      "id": "-26938366",
+      "label": "ModulesContainer",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "ModulesContainer"
+      }
+    },
+    "-326832201": {
+      "id": "-326832201",
+      "label": "HttpAdapterHost",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "HttpAdapterHost"
+      }
+    },
+    "-702581189": {
+      "id": "-702581189",
+      "label": "LazyModuleLoader",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "LazyModuleLoader",
+        "initTime": 186.34860000014305
+      }
+    },
+    "-1904419534": {
+      "id": "-1904419534",
+      "label": "SerializedGraph",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "SerializedGraph"
+      }
+    },
+    "-19112576": {
+      "id": "-19112576",
+      "label": "AppModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-2139588960": {
+      "id": "-2139588960",
+      "label": "AppModule",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AppModule",
+        "initTime": 186.34780000150204
+      }
+    },
+    "-71302842": {
+      "id": "-71302842",
+      "label": "ModuleRef",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-2064622725": {
+      "id": "-2064622725",
+      "label": "ApplicationConfig",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2130614055": {
+      "id": "-2130614055",
+      "label": "AppService",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "AppService",
+        "initTime": 186.32670000195503
+      }
+    },
+    "-1537098012": {
+      "id": "-1537098012",
+      "label": "UserModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1722084434": {
+      "id": "-1722084434",
+      "label": "UserModule",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "UserModule",
+        "initTime": 186.3163999915123
+      }
+    },
+    "-523403191": {
+      "id": "-523403191",
+      "label": "ApplicationConfig",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2045439487": {
+      "id": "-2045439487",
+      "label": "UserService",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "UserService"
+      }
+    },
+    "-2135742481": {
+      "id": "-2135742481",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-1872891520": {
+      "id": "-1872891520",
+      "label": "TypeOrmModule",
+      "parent": "-2135742481",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 185.362399995327
+      }
+    },
+    "-1068388246": {
+      "id": "-1068388246",
+      "label": "ApplicationConfig",
+      "parent": "-2135742481",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1488832441": {
+      "id": "-1488832441",
+      "label": "UserRepository",
+      "parent": "-2135742481",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "UserRepository"
+      }
+    },
+    "-101678541": {
+      "id": "-101678541",
+      "label": "TokensModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-123731795": {
+      "id": "-123731795",
+      "label": "ModuleRef",
+      "parent": "-101678541",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TokensModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-898531752": {
+      "id": "-898531752",
+      "label": "ApplicationConfig",
+      "parent": "-101678541",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TokensModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-257450702": {
+      "id": "-257450702",
+      "label": "TypeOrmModule",
+      "parent": "545846241",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 185.2627999931574
+      }
+    },
+    "-223917668": {
+      "id": "-223917668",
+      "label": "ApplicationConfig",
+      "parent": "545846241",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2098947619": {
+      "id": "-2098947619",
+      "label": "ModuleRef",
+      "parent": "1677638807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "Gateway",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1117782702": {
+      "id": "-1117782702",
+      "label": "ApplicationConfig",
+      "parent": "1677638807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "Gateway",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-399408382": {
+      "id": "-399408382",
+      "label": "PersonModule",
+      "parent": "861740974",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PersonModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "PersonModule",
+        "initTime": 184.98910000920296
+      }
+    },
+    "-257450701": {
+      "id": "-257450701",
+      "label": "TypeOrmModule",
+      "parent": "545846242",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 184.80670000612736
+      }
+    },
+    "-223917667": {
+      "id": "-223917667",
+      "label": "ApplicationConfig",
+      "parent": "545846242",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2096258823": {
+      "id": "-2096258823",
+      "label": "ModuleRef",
+      "parent": "813946547",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ScopeModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-2121252370": {
+      "id": "-2121252370",
+      "label": "ApplicationConfig",
+      "parent": "813946547",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ScopeModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-257450700": {
+      "id": "-257450700",
+      "label": "TypeOrmModule",
+      "parent": "545846243",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 184.69920000433922
+      }
+    },
+    "-223917666": {
+      "id": "-223917666",
+      "label": "ApplicationConfig",
+      "parent": "545846243",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-172986125": {
+      "id": "-172986125",
+      "label": "ScopesRepository",
+      "parent": "545846243",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "ScopesRepository"
+      }
+    },
+    "-153485861": {
+      "id": "-153485861",
+      "label": "NationalityModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1694780160": {
+      "id": "-1694780160",
+      "label": "NationalityModule",
+      "parent": "-153485861",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "NationalityModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "NationalityModule",
+        "initTime": 184.69570000469685
+      }
+    },
+    "-1604813919": {
+      "id": "-1604813919",
+      "label": "ModuleRef",
+      "parent": "-153485861",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "NationalityModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1162227498": {
+      "id": "-1162227498",
+      "label": "ApplicationConfig",
+      "parent": "-153485861",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "NationalityModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1652186417": {
+      "id": "-1652186417",
+      "label": "NationalityService",
+      "parent": "-153485861",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "NationalityModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "NationalityService"
+      }
+    },
+    "-257450699": {
+      "id": "-257450699",
+      "label": "TypeOrmModule",
+      "parent": "545846244",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 184.60600000619888
+      }
+    },
+    "-223917665": {
+      "id": "-223917665",
+      "label": "ApplicationConfig",
+      "parent": "545846244",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1297379304": {
+      "id": "-1297379304",
+      "label": "NationalitiesRepository",
+      "parent": "545846244",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "NationalitiesRepository"
+      }
+    },
+    "-1859488018": {
+      "id": "-1859488018",
+      "label": "CityModule",
+      "parent": "889762948",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "CityModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "CityModule",
+        "initTime": 184.57429999113083
+      }
+    },
+    "-728135298": {
+      "id": "-728135298",
+      "label": "ModuleRef",
+      "parent": "889762948",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "CityModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1801368063": {
+      "id": "-1801368063",
+      "label": "CityService",
+      "parent": "889762948",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "CityModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CityService"
+      }
+    },
+    "-257450698": {
+      "id": "-257450698",
+      "label": "TypeOrmModule",
+      "parent": "545846245",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 184.50200000405312
+      }
+    },
+    "-223917664": {
+      "id": "-223917664",
+      "label": "ApplicationConfig",
+      "parent": "545846245",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-74345581": {
+      "id": "-74345581",
+      "label": "AddressModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-757996455": {
+      "id": "-757996455",
+      "label": "ModuleRef",
+      "parent": "-74345581",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AddressModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-847358785": {
+      "id": "-847358785",
+      "label": "AddressService",
+      "parent": "-74345581",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AddressModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "AddressService"
+      }
+    },
+    "-257450697": {
+      "id": "-257450697",
+      "label": "TypeOrmModule",
+      "parent": "545846246",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 184.26420000195503
+      }
+    },
+    "-223917663": {
+      "id": "-223917663",
+      "label": "ApplicationConfig",
+      "parent": "545846246",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-982457648": {
+      "id": "-982457648",
+      "label": "AddressesRepository",
+      "parent": "545846246",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "AddressesRepository"
+      }
+    },
+    "-259102566": {
+      "id": "-259102566",
+      "label": "StudentModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1110728864": {
+      "id": "-1110728864",
+      "label": "StudentModule",
+      "parent": "-259102566",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "StudentModule",
+        "initTime": 184.2470000088215
+      }
+    },
+    "-942753440": {
+      "id": "-942753440",
+      "label": "ModuleRef",
+      "parent": "-259102566",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-257450696": {
+      "id": "-257450696",
+      "label": "TypeOrmModule",
+      "parent": "545846247",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 184.1499000042677
+      }
+    },
+    "-223917662": {
+      "id": "-223917662",
+      "label": "ApplicationConfig",
+      "parent": "545846247",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2037577705": {
+      "id": "-2037577705",
+      "label": "StudentRepository",
+      "parent": "545846247",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "StudentRepository"
+      }
+    },
+    "-1727255578": {
+      "id": "-1727255578",
+      "label": "StudentConnModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1373492128": {
+      "id": "-1373492128",
+      "label": "StudentConnModule",
+      "parent": "-1727255578",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentConnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "StudentConnModule",
+        "initTime": 184.145300000906
+      }
+    },
+    "-313740763": {
+      "id": "-313740763",
+      "label": "StudentConnService",
+      "parent": "-1727255578",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "StudentConnModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "StudentConnService"
+      }
+    },
+    "-257450695": {
+      "id": "-257450695",
+      "label": "TypeOrmModule",
+      "parent": "545846248",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.89089998602867
+      }
+    },
+    "-223917661": {
+      "id": "-223917661",
+      "label": "ApplicationConfig",
+      "parent": "545846248",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1420473063": {
+      "id": "-1420473063",
+      "label": "StudentConnectionRepository",
+      "parent": "545846248",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "StudentConnectionRepository"
+      }
+    },
+    "-648639136": {
+      "id": "-648639136",
+      "label": "StudentGroupModule",
+      "parent": "643684445",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentGroupModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "StudentGroupModule",
+        "initTime": 183.88060000538826
+      }
+    },
+    "-1397812393": {
+      "id": "-1397812393",
+      "label": "ModuleRef",
+      "parent": "643684445",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentGroupModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-562535230": {
+      "id": "-562535230",
+      "label": "ApplicationConfig",
+      "parent": "643684445",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "StudentGroupModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-558613663": {
+      "id": "-558613663",
+      "label": "StudentGroupService",
+      "parent": "643684445",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "StudentGroupModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "StudentGroupService"
+      }
+    },
+    "-257450694": {
+      "id": "-257450694",
+      "label": "TypeOrmModule",
+      "parent": "545846249",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TypeOrmModule",
+        "initTime": 183.8074000030756
+      }
+    },
+    "-223917660": {
+      "id": "-223917660",
+      "label": "ApplicationConfig",
+      "parent": "545846249",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2120771327": {
+      "id": "-2120771327",
+      "label": "TeacherModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-361382208": {
+      "id": "-361382208",
+      "label": "TeacherModule",
+      "parent": "-2120771327",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TeacherModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TeacherModule",
+        "initTime": 183.80220000445843
+      }
+    },
+    "-1053417092": {
+      "id": "-1053417092",
+      "label": "ApplicationConfig",
+      "parent": "-2120771327",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TeacherModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1134213349": {
+      "id": "-1134213349",
+      "label": "TeacherService",
+      "parent": "-2120771327",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TeacherModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "TeacherService"
+      }
+    },
+    "-258635665": {
+      "id": "-258635665",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905367": {
+      "id": "-166905367",
+      "label": "ModuleRef",
+      "parent": "-258635665",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1830272381": {
+      "id": "-1830272381",
+      "label": "TeacherSubjectModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1218071252": {
+      "id": "-1218071252",
+      "label": "TeacherSubjectModule",
+      "parent": "-1830272381",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TeacherSubjectModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TeacherSubjectModule",
+        "initTime": 183.49500000476837
+      }
+    },
+    "-908679427": {
+      "id": "-908679427",
+      "label": "ModuleRef",
+      "parent": "-1830272381",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TeacherSubjectModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1366210136": {
+      "id": "-1366210136",
+      "label": "ApplicationConfig",
+      "parent": "-1830272381",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TeacherSubjectModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-569225503": {
+      "id": "-569225503",
+      "label": "TeacherSubjectService",
+      "parent": "-1830272381",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TeacherSubjectModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "TeacherSubjectService"
+      }
+    },
+    "-258635664": {
+      "id": "-258635664",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905366": {
+      "id": "-166905366",
+      "label": "ModuleRef",
+      "parent": "-258635664",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1880139192": {
+      "id": "-1880139192",
+      "label": "TeacherSubjectRepository",
+      "parent": "-258635664",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "TeacherSubjectRepository"
+      }
+    },
+    "-1634987570": {
+      "id": "-1634987570",
+      "label": "RoomModule",
+      "parent": "2092976116",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "RoomModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "RoomModule",
+        "initTime": 183.35999999940395
+      }
+    },
+    "-1188296359": {
+      "id": "-1188296359",
+      "label": "ApplicationConfig",
+      "parent": "2092976116",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "RoomModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-873478143": {
+      "id": "-873478143",
+      "label": "RoomService",
+      "parent": "2092976116",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "RoomModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "RoomService"
+      }
+    },
+    "-258635663": {
+      "id": "-258635663",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905365": {
+      "id": "-166905365",
+      "label": "ModuleRef",
+      "parent": "-258635663",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-29788416": {
+      "id": "-29788416",
+      "label": "SubjectModule",
+      "parent": "777159371",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "SubjectModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "SubjectModule",
+        "initTime": 183.31810000538826
+      }
+    },
+    "-483315409": {
+      "id": "-483315409",
+      "label": "SubjectService",
+      "parent": "777159371",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "SubjectModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "SubjectService"
+      }
+    },
+    "-258635662": {
+      "id": "-258635662",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905364": {
+      "id": "-166905364",
+      "label": "ModuleRef",
+      "parent": "-258635662",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-875290339": {
+      "id": "-875290339",
+      "label": "ModuleRef",
+      "parent": "2034915031",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ClassModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-900283886": {
+      "id": "-900283886",
+      "label": "ApplicationConfig",
+      "parent": "2034915031",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ClassModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-456974457": {
+      "id": "-456974457",
+      "label": "ClassService",
+      "parent": "2034915031",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ClassModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "ClassService"
+      }
+    },
+    "-258635661": {
+      "id": "-258635661",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905363": {
+      "id": "-166905363",
+      "label": "ModuleRef",
+      "parent": "-258635661",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-375548870": {
+      "id": "-375548870",
+      "label": "ClassRepository",
+      "parent": "-258635661",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "ClassRepository"
+      }
+    },
+    "-748453218": {
+      "id": "-748453218",
+      "label": "GroupModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-319138016": {
+      "id": "-319138016",
+      "label": "GroupModule",
+      "parent": "-748453218",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "GroupModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "GroupModule",
+        "initTime": 183.18860000371933
+      }
+    },
+    "-1519975275": {
+      "id": "-1519975275",
+      "label": "GroupService",
+      "parent": "-748453218",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "GroupModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "GroupService"
+      }
+    },
+    "-258635660": {
+      "id": "-258635660",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905362": {
+      "id": "-166905362",
+      "label": "ModuleRef",
+      "parent": "-258635660",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-647956618": {
+      "id": "-647956618",
+      "label": "ApplicationConfig",
+      "parent": "148896593",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "LessonModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2025756511": {
+      "id": "-2025756511",
+      "label": "LessonService",
+      "parent": "148896593",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "LessonModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "LessonService"
+      }
+    },
+    "-258635659": {
+      "id": "-258635659",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905361": {
+      "id": "-166905361",
+      "label": "ModuleRef",
+      "parent": "-258635659",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-556878790": {
+      "id": "-556878790",
+      "label": "LessonRepository",
+      "parent": "-258635659",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "LessonRepository"
+      }
+    },
+    "-1704643521": {
+      "id": "-1704643521",
+      "label": "LessonClassModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-258635658": {
+      "id": "-258635658",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905360": {
+      "id": "-166905360",
+      "label": "ModuleRef",
+      "parent": "-258635658",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-658948635": {
+      "id": "-658948635",
+      "label": "DegreeModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1579997968": {
+      "id": "-1579997968",
+      "label": "DegreeModule",
+      "parent": "-658948635",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DegreeModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "DegreeModule",
+        "initTime": 182.99639999866486
+      }
+    },
+    "-681001889": {
+      "id": "-681001889",
+      "label": "ModuleRef",
+      "parent": "-658948635",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DegreeModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1455801846": {
+      "id": "-1455801846",
+      "label": "ApplicationConfig",
+      "parent": "-658948635",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DegreeModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1844102879": {
+      "id": "-1844102879",
+      "label": "DegreeService",
+      "parent": "-658948635",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "DegreeModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "DegreeService"
+      }
+    },
+    "-258635657": {
+      "id": "-258635657",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905359": {
+      "id": "-166905359",
+      "label": "ModuleRef",
+      "parent": "-258635657",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-591893466": {
+      "id": "-591893466",
+      "label": "DegreeRepository",
+      "parent": "-258635657",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "DegreeRepository"
+      }
+    },
+    "-2128430819": {
+      "id": "-2128430819",
+      "label": "ModuleRef",
+      "parent": "2074806179",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DegreeListModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-313038520": {
+      "id": "-313038520",
+      "label": "ApplicationConfig",
+      "parent": "2074806179",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DegreeListModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-124092319": {
+      "id": "-124092319",
+      "label": "DegreeListService",
+      "parent": "2074806179",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "DegreeListModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "DegreeListService"
+      }
+    },
+    "-258635656": {
+      "id": "-258635656",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905358": {
+      "id": "-166905358",
+      "label": "ModuleRef",
+      "parent": "-258635656",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-244062296": {
+      "id": "-244062296",
+      "label": "DegreeListRepository",
+      "parent": "-258635656",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "DegreeListRepository"
+      }
+    },
+    "-388485150": {
+      "id": "-388485150",
+      "label": "ModuleRef",
+      "parent": "295165724",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AbsenceModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-258635634": {
+      "id": "-258635634",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905336": {
+      "id": "-166905336",
+      "label": "ModuleRef",
+      "parent": "-258635634",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1997330987": {
+      "id": "-1997330987",
+      "label": "AbsenceRepository",
+      "parent": "-258635634",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "AbsenceRepository"
+      }
+    },
+    "-1512713781": {
+      "id": "-1512713781",
+      "label": "ApplicationConfig",
+      "parent": "1768558694",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MarkModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1365349183": {
+      "id": "-1365349183",
+      "label": "MarkService",
+      "parent": "1768558694",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MarkModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "MarkService"
+      }
+    },
+    "-258635633": {
+      "id": "-258635633",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905335": {
+      "id": "-166905335",
+      "label": "ModuleRef",
+      "parent": "-258635633",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-650624340": {
+      "id": "-650624340",
+      "label": "MarksRepository",
+      "parent": "-258635633",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "MarksRepository"
+      }
+    },
+    "-866216996": {
+      "id": "-866216996",
+      "label": "MarkColumnModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-356776994": {
+      "id": "-356776994",
+      "label": "MarkColumnModule",
+      "parent": "-866216996",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MarkColumnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MarkColumnModule",
+        "initTime": 182.77560000121593
+      }
+    },
+    "-774486698": {
+      "id": "-774486698",
+      "label": "ModuleRef",
+      "parent": "-866216996",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MarkColumnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1591780991": {
+      "id": "-1591780991",
+      "label": "MarkColumnService",
+      "parent": "-866216996",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MarkColumnModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "MarkColumnService"
+      }
+    },
+    "-258635632": {
+      "id": "-258635632",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905334": {
+      "id": "-166905334",
+      "label": "ModuleRef",
+      "parent": "-258635632",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1961289118": {
+      "id": "-1961289118",
+      "label": "MarkColumnsRepository",
+      "parent": "-258635632",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "MarkColumnsRepository"
+      }
+    },
+    "-651526498": {
+      "id": "-651526498",
+      "label": "AttachModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1618650910": {
+      "id": "-1618650910",
+      "label": "AttachModule",
+      "parent": "-651526498",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AttachModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AttachModule",
+        "initTime": 182.73250000178814
+      }
+    },
+    "-673579752": {
+      "id": "-673579752",
+      "label": "ModuleRef",
+      "parent": "-651526498",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AttachModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1448379709": {
+      "id": "-1448379709",
+      "label": "ApplicationConfig",
+      "parent": "-651526498",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AttachModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-258635631": {
+      "id": "-258635631",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905333": {
+      "id": "-166905333",
+      "label": "ModuleRef",
+      "parent": "-258635631",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1358374142": {
+      "id": "-1358374142",
+      "label": "AttachmentsRepository",
+      "parent": "-258635631",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "AttachmentsRepository"
+      }
+    },
+    "-679723014": {
+      "id": "-679723014",
+      "label": "AttachConnModule",
+      "parent": "166043626",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AttachConnModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AttachConnModule",
+        "initTime": 182.66239999234676
+      }
+    },
+    "-258635630": {
+      "id": "-258635630",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905332": {
+      "id": "-166905332",
+      "label": "ModuleRef",
+      "parent": "-258635630",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-22890940": {
+      "id": "-22890940",
+      "label": "AttachmentsConnectionRepository",
+      "parent": "-258635630",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "AttachmentsConnectionRepository"
+      }
+    },
+    "-745251528": {
+      "id": "-745251528",
+      "label": "HomeworkModule",
+      "parent": "112527689",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "HomeworkModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "HomeworkModule",
+        "initTime": 176.6305000036955
+      }
+    },
+    "-1159229394": {
+      "id": "-1159229394",
+      "label": "ApplicationConfig",
+      "parent": "112527689",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "HomeworkModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-258635629": {
+      "id": "-258635629",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905331": {
+      "id": "-166905331",
+      "label": "ModuleRef",
+      "parent": "-258635629",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-723708414": {
+      "id": "-723708414",
+      "label": "HomeworkRepository",
+      "parent": "-258635629",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "HomeworkRepository"
+      }
+    },
+    "-258635628": {
+      "id": "-258635628",
+      "label": "TypeOrmModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-166905330": {
+      "id": "-166905330",
+      "label": "ModuleRef",
+      "parent": "-258635628",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1026304274": {
+      "id": "-1026304274",
+      "label": "TypeOrmCoreModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-2035045911": {
+      "id": "-2035045911",
+      "label": "ApplicationConfig",
+      "parent": "-1026304274",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TypeOrmCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2103415210": {
+      "id": "-2103415210",
+      "label": "DataSource",
+      "parent": "-1026304274",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TypeOrmCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "DataSource"
+      }
+    }
+  },
+  "edges": {
+    "7608701": {
+      "source": "-19112576",
+      "target": "-866216996",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "MarkColumnModule"
+      },
+      "id": "7608701"
+    },
+    "11117387": {
+      "source": "-1537098012",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "11117387"
+    },
+    "26100429": {
+      "source": "-19112576",
+      "target": "148896593",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "LessonModule"
+      },
+      "id": "26100429"
+    },
+    "154695495": {
+      "source": "-658948635",
+      "target": "-258635657",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DegreeModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "154695495"
+    },
+    "156021885": {
+      "source": "-258635628",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "156021885"
+    },
+    "159870206": {
+      "source": "112527689",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "HomeworkModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "159870206"
+    },
+    "178693614": {
+      "source": "-258635634",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "178693614"
+    },
+    "189694679": {
+      "source": "1434456218",
+      "target": "671882984",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "InternalCoreModule",
+        "sourceClassName": "Reflector",
+        "targetClassName": "Reflector",
+        "sourceClassToken": "Reflector",
+        "targetClassToken": "Reflector",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "189694679"
+    },
+    "227471995": {
+      "source": "295165724",
+      "target": "-258635634",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AbsenceModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "227471995"
+    },
+    "232647996": {
+      "source": "-19112576",
+      "target": "-1830272381",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "TeacherSubjectModule"
+      },
+      "id": "232647996"
+    },
+    "295227237": {
+      "source": "-258635631",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "295227237"
+    },
+    "373779903": {
+      "source": "-74345581",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AddressModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "373779903"
+    },
+    "374014591": {
+      "source": "2034915031",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ClassModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "374014591"
+    },
+    "399182753": {
+      "source": "889762948",
+      "target": "545846245",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CityModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "399182753"
+    },
+    "414596721": {
+      "source": "-258635659",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "414596721"
+    },
+    "422122265": {
+      "source": "-153485861",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "NationalityModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "422122265"
+    },
+    "426907568": {
+      "source": "-19112576",
+      "target": "-259102566",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "StudentModule"
+      },
+      "id": "426907568"
+    },
+    "434995337": {
+      "source": "-258635662",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "434995337"
+    },
+    "447160535": {
+      "source": "777159371",
+      "target": "-258635662",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "SubjectModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "447160535"
+    },
+    "518150469": {
+      "source": "-748453218",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "GroupModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "518150469"
+    },
+    "557939515": {
+      "source": "-19112576",
+      "target": "777159371",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "SubjectModule"
+      },
+      "id": "557939515"
+    },
+    "624880840": {
+      "source": "112527689",
+      "target": "-258635629",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "HomeworkModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "624880840"
+    },
+    "643269438": {
+      "source": "-866216996",
+      "target": "-258635632",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MarkColumnModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "643269438"
+    },
+    "689642401": {
+      "source": "-258635657",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "689642401"
+    },
+    "695877662": {
+      "source": "813946547",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScopeModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "695877662"
+    },
+    "704476681": {
+      "source": "643684445",
+      "target": "545846249",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentGroupModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "704476681"
+    },
+    "704524490": {
+      "source": "545846249",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "704524490"
+    },
+    "766022704": {
+      "source": "-19112576",
+      "target": "-651526498",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "AttachModule"
+      },
+      "id": "766022704"
+    },
+    "773751765": {
+      "source": "2074806179",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DegreeListModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "773751765"
+    },
+    "797275802": {
+      "source": "-1830272381",
+      "target": "-258635664",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TeacherSubjectModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "797275802"
+    },
+    "818084796": {
+      "source": "-19112576",
+      "target": "2074806179",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "DegreeListModule"
+      },
+      "id": "818084796"
+    },
+    "828847753": {
+      "source": "-258635660",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "828847753"
+    },
+    "852048645": {
+      "source": "-258635664",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "852048645"
+    },
+    "852873183": {
+      "source": "-101678541",
+      "target": "545846241",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TokensModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "852873183"
+    },
+    "860284114": {
+      "source": "813946547",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScopeModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "860284114"
+    },
+    "877350025": {
+      "source": "-651526498",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AttachModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "877350025"
+    },
+    "879231749": {
+      "source": "545846244",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "879231749"
+    },
+    "913866243": {
+      "source": "-19112576",
+      "target": "-2120771327",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "TeacherModule"
+      },
+      "id": "913866243"
+    },
+    "1010561902": {
+      "source": "545846241",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1010561902"
+    },
+    "1013118683": {
+      "source": "295165724",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AbsenceModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1013118683"
+    },
+    "1033762794": {
+      "source": "545846245",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1033762794"
+    },
+    "1056428433": {
+      "source": "-19112576",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1056428433"
+    },
+    "1056963686": {
+      "source": "545846249",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1056963686"
+    },
+    "1072628525": {
+      "source": "-258635633",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1072628525"
+    },
+    "1178655997": {
+      "source": "-259102566",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1178655997"
+    },
+    "1203190684": {
+      "source": "-866216996",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MarkColumnModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1203190684"
+    },
+    "1211396908": {
+      "source": "813946547",
+      "target": "545846243",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScopeModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "1211396908"
+    },
+    "1235563932": {
+      "source": "-258635629",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1235563932"
+    },
+    "1240473235": {
+      "source": "-259102566",
+      "target": "545846247",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "1240473235"
+    },
+    "1247759625": {
+      "source": "2092976116",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "RoomModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1247759625"
+    },
+    "1261358923": {
+      "source": "-748453218",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "GroupModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1261358923"
+    },
+    "1272716330": {
+      "source": "-19112576",
+      "target": "643684445",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "StudentGroupModule"
+      },
+      "id": "1272716330"
+    },
+    "1290772341": {
+      "source": "295165724",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AbsenceModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1290772341"
+    },
+    "1308531632": {
+      "source": "-258635658",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1308531632"
+    },
+    "1320423842": {
+      "source": "-19112576",
+      "target": "-748453218",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "GroupModule"
+      },
+      "id": "1320423842"
+    },
+    "1328930248": {
+      "source": "-258635661",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1328930248"
+    },
+    "1371425698": {
+      "source": "-19112576",
+      "target": "295165724",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "AbsenceModule"
+      },
+      "id": "1371425698"
+    },
+    "1374769284": {
+      "source": "-258635632",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1374769284"
+    },
+    "1409245521": {
+      "source": "-19112576",
+      "target": "-658948635",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "DegreeModule"
+      },
+      "id": "1409245521"
+    },
+    "1454288893": {
+      "source": "-2135742481",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1454288893"
+    },
+    "1466884586": {
+      "source": "-1727255578",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentConnModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1466884586"
+    },
+    "1470327709": {
+      "source": "-1704643521",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "LessonClassModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1470327709"
+    },
+    "1479913159": {
+      "source": "-1537098012",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1479913159"
+    },
+    "1504782767": {
+      "source": "1768558694",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MarkModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1504782767"
+    },
+    "1598459401": {
+      "source": "545846248",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1598459401"
+    },
+    "1600049092": {
+      "source": "-1537098012",
+      "target": "-2135742481",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "1600049092"
+    },
+    "1635338963": {
+      "source": "-2135742481",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1635338963"
+    },
+    "1706226702": {
+      "source": "777159371",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "SubjectModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1706226702"
+    },
+    "1747142230": {
+      "source": "-2120771327",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TeacherModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1747142230"
+    },
+    "1769184448": {
+      "source": "-258635658",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1769184448"
+    },
+    "1773166660": {
+      "source": "545846243",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1773166660"
+    },
+    "1796975477": {
+      "source": "-101678541",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TokensModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1796975477"
+    },
+    "1804787082": {
+      "source": "166043626",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AttachConnModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1804787082"
+    },
+    "1821767031": {
+      "source": "889762948",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CityModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1821767031"
+    },
+    "1845764253": {
+      "source": "-1704643521",
+      "target": "-258635658",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "LessonClassModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "1845764253"
+    },
+    "1863040682": {
+      "source": "-658948635",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DegreeModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1863040682"
+    },
+    "1881460788": {
+      "source": "112527689",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "HomeworkModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1881460788"
+    },
+    "1896126445": {
+      "source": "-1830272381",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TeacherSubjectModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1896126445"
+    },
+    "1908389800": {
+      "source": "-258635661",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1908389800"
+    },
+    "1931590692": {
+      "source": "-258635665",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1931590692"
+    },
+    "1946164820": {
+      "source": "-258635629",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1946164820"
+    },
+    "1966563436": {
+      "source": "-258635632",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1966563436"
+    },
+    "1980473298": {
+      "source": "861740974",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PersonModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "1980473298"
+    },
+    "2038357301": {
+      "source": "-19112576",
+      "target": "1677638807",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "Gateway"
+      },
+      "id": "2038357301"
+    },
+    "2043346899": {
+      "source": "2034915031",
+      "target": "-258635661",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ClassModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "2043346899"
+    },
+    "2048157900": {
+      "source": "-258635665",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "2048157900"
+    },
+    "2090103949": {
+      "source": "545846242",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "2090103949"
+    },
+    "2098299720": {
+      "source": "-658948635",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DegreeModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "2098299720"
+    },
+    "2113304841": {
+      "source": "545846246",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "2113304841"
+    },
+    "-1537161641": {
+      "source": "731684192",
+      "target": "2075644217",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TypeOrmCoreModule",
+        "sourceClassName": "TypeOrmCoreModule",
+        "targetClassName": "TypeOrmModuleOptions",
+        "sourceClassToken": "TypeOrmCoreModule",
+        "targetClassToken": "TypeOrmModuleOptions",
+        "targetModuleName": "TypeOrmCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1537161641"
+    },
+    "-1463782886": {
+      "source": "731684192",
+      "target": "1817334964",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TypeOrmCoreModule",
+        "sourceClassName": "TypeOrmCoreModule",
+        "targetClassName": "ModuleRef",
+        "sourceClassToken": "TypeOrmCoreModule",
+        "targetClassToken": "ModuleRef",
+        "targetModuleName": "TypeOrmCoreModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-1463782886"
+    },
+    "-1429799902": {
+      "source": "-19112576",
+      "target": "-1537098012",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "UserModule"
+      },
+      "id": "-1429799902"
+    },
+    "-1502266916": {
+      "source": "-19112576",
+      "target": "-101678541",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "TokensModule"
+      },
+      "id": "-1502266916"
+    },
+    "-1167653129": {
+      "source": "-19112576",
+      "target": "861740974",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "PersonModule"
+      },
+      "id": "-1167653129"
+    },
+    "-583730165": {
+      "source": "-19112576",
+      "target": "813946547",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "ScopeModule"
+      },
+      "id": "-583730165"
+    },
+    "-1946349066": {
+      "source": "-19112576",
+      "target": "-153485861",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "NationalityModule"
+      },
+      "id": "-1946349066"
+    },
+    "-1023059634": {
+      "source": "-19112576",
+      "target": "889762948",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "CityModule"
+      },
+      "id": "-1023059634"
+    },
+    "-1900783042": {
+      "source": "-19112576",
+      "target": "-74345581",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "AddressModule"
+      },
+      "id": "-1900783042"
+    },
+    "-210881165": {
+      "source": "-19112576",
+      "target": "-1727255578",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "StudentConnModule"
+      },
+      "id": "-210881165"
+    },
+    "-2068562384": {
+      "source": "-19112576",
+      "target": "2092976116",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "RoomModule"
+      },
+      "id": "-2068562384"
+    },
+    "-866743314": {
+      "source": "-19112576",
+      "target": "2034915031",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "ClassModule"
+      },
+      "id": "-866743314"
+    },
+    "-1570845408": {
+      "source": "-19112576",
+      "target": "-1704643521",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "LessonClassModule"
+      },
+      "id": "-1570845408"
+    },
+    "-1912271798": {
+      "source": "-19112576",
+      "target": "1768558694",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "MarkModule"
+      },
+      "id": "-1912271798"
+    },
+    "-1914567327": {
+      "source": "-19112576",
+      "target": "166043626",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "AttachConnModule"
+      },
+      "id": "-1914567327"
+    },
+    "-511786411": {
+      "source": "-19112576",
+      "target": "112527689",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "HomeworkModule"
+      },
+      "id": "-511786411"
+    },
+    "-519754022": {
+      "source": "-19112576",
+      "target": "-258635628",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-519754022"
+    },
+    "-495517505": {
+      "source": "-19112576",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-495517505"
+    },
+    "-1351308451": {
+      "source": "-101678541",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TokensModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1351308451"
+    },
+    "-733930814": {
+      "source": "545846241",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-733930814"
+    },
+    "-853049512": {
+      "source": "1677638807",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "Gateway",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-853049512"
+    },
+    "-2021571240": {
+      "source": "1677638807",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "Gateway",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-2021571240"
+    },
+    "-1850799211": {
+      "source": "861740974",
+      "target": "545846242",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PersonModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-1850799211"
+    },
+    "-632606944": {
+      "source": "861740974",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PersonModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-632606944"
+    },
+    "-1627865725": {
+      "source": "545846242",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1627865725"
+    },
+    "-1125321300": {
+      "source": "545846243",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1125321300"
+    },
+    "-923792848": {
+      "source": "-153485861",
+      "target": "545846244",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "NationalityModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-923792848"
+    },
+    "-1484747785": {
+      "source": "-153485861",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "NationalityModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1484747785"
+    },
+    "-45779253": {
+      "source": "545846244",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-45779253"
+    },
+    "-2070377957": {
+      "source": "889762948",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CityModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-2070377957"
+    },
+    "-14703162": {
+      "source": "545846245",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-14703162"
+    },
+    "-1541405514": {
+      "source": "-74345581",
+      "target": "545846246",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AddressModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-1541405514"
+    },
+    "-2117794351": {
+      "source": "-74345581",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AddressModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-2117794351"
+    },
+    "-908638073": {
+      "source": "545846246",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-908638073"
+    },
+    "-745708397": {
+      "source": "-259102566",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-745708397"
+    },
+    "-1102120408": {
+      "source": "545846247",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1102120408"
+    },
+    "-1802572984": {
+      "source": "545846247",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1802572984"
+    },
+    "-350214881": {
+      "source": "-1727255578",
+      "target": "545846248",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentConnModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-350214881"
+    },
+    "-1868467834": {
+      "source": "-1727255578",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentConnModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1868467834"
+    },
+    "-22578361": {
+      "source": "545846248",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-22578361"
+    },
+    "-1023920237": {
+      "source": "643684445",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentGroupModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1023920237"
+    },
+    "-1675883329": {
+      "source": "643684445",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "StudentGroupModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1675883329"
+    },
+    "-949347992": {
+      "source": "-2120771327",
+      "target": "-258635665",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TeacherModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-949347992"
+    },
+    "-1181187750": {
+      "source": "-2120771327",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TeacherModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1181187750"
+    },
+    "-427089947": {
+      "source": "-1830272381",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TeacherSubjectModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-427089947"
+    },
+    "-1352874485": {
+      "source": "-258635664",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1352874485"
+    },
+    "-436258561": {
+      "source": "2092976116",
+      "target": "-258635663",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "RoomModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-436258561"
+    },
+    "-1367623479": {
+      "source": "2092976116",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "RoomModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1367623479"
+    },
+    "-227493402": {
+      "source": "-258635663",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-227493402"
+    },
+    "-458939574": {
+      "source": "-258635663",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-458939574"
+    },
+    "-1274235614": {
+      "source": "777159371",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "SubjectModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1274235614"
+    },
+    "-1307035449": {
+      "source": "-258635662",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1307035449"
+    },
+    "-1267166767": {
+      "source": "2034915031",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ClassModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1267166767"
+    },
+    "-181536810": {
+      "source": "-748453218",
+      "target": "-258635660",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "GroupModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-181536810"
+    },
+    "-2072102137": {
+      "source": "-258635660",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-2072102137"
+    },
+    "-1539625299": {
+      "source": "148896593",
+      "target": "-258635659",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "LessonModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-1539625299"
+    },
+    "-249853898": {
+      "source": "148896593",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "LessonModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-249853898"
+    },
+    "-378612164": {
+      "source": "148896593",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "LessonModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-378612164"
+    },
+    "-1446240801": {
+      "source": "-258635659",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1446240801"
+    },
+    "-2020700237": {
+      "source": "-1704643521",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "LessonClassModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-2020700237"
+    },
+    "-2092500753": {
+      "source": "-258635657",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-2092500753"
+    },
+    "-1197854355": {
+      "source": "2074806179",
+      "target": "-258635656",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DegreeListModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-1197854355"
+    },
+    "-404170115": {
+      "source": "2074806179",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DegreeListModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-404170115"
+    },
+    "-389899646": {
+      "source": "-258635656",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-389899646"
+    },
+    "-1198565842": {
+      "source": "-258635656",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1198565842"
+    },
+    "-761113918": {
+      "source": "-258635634",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-761113918"
+    },
+    "-1910032416": {
+      "source": "1768558694",
+      "target": "-258635633",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MarkModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-1910032416"
+    },
+    "-1978666013": {
+      "source": "1768558694",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MarkModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1978666013"
+    },
+    "-1840655965": {
+      "source": "-258635633",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1840655965"
+    },
+    "-1796365034": {
+      "source": "-866216996",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MarkColumnModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1796365034"
+    },
+    "-1185685452": {
+      "source": "-651526498",
+      "target": "-258635631",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AttachModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-1185685452"
+    },
+    "-2127549559": {
+      "source": "-651526498",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AttachModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-2127549559"
+    },
+    "-1434468949": {
+      "source": "-258635631",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1434468949"
+    },
+    "-1239491700": {
+      "source": "166043626",
+      "target": "-258635630",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AttachConnModule",
+        "targetModuleName": "TypeOrmModule"
+      },
+      "id": "-1239491700"
+    },
+    "-128615128": {
+      "source": "166043626",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AttachConnModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-128615128"
+    },
+    "-784314810": {
+      "source": "-258635630",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-784314810"
+    },
+    "-540534038": {
+      "source": "-258635630",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-540534038"
+    },
+    "-1454867565": {
+      "source": "-258635628",
+      "target": "-1026304274",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmModule",
+        "targetModuleName": "TypeOrmCoreModule"
+      },
+      "id": "-1454867565"
+    },
+    "-485008942": {
+      "source": "-1026304274",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TypeOrmCoreModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-485008942"
+    }
+  },
+  "entrypoints": {},
+  "extras": {
+    "orphanedEnhancers": [],
+    "attachedEnhancers": []
+  },
+  "status": "partial",
+  "metadata": {
+    "cause": {
+      "type": "unknown-dependencies",
+      "context": {
+        "index": 0,
+        "dependencies": [
+          "AuthService"
+        ],
+        "name": "AuthService"
+      },
+      "moduleId": "1677638807",
+      "nodeId": "1817481088"
+    }
+  }
+}

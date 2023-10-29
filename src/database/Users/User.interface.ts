@@ -1,0 +1,1 @@
+export type UserTypes = 'systemadmin' | 'manager' | 'principal' | 'teacher' | 'parent' | 'student';

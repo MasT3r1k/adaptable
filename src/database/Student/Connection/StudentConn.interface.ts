@@ -1,0 +1,1 @@
+export type StudentConnTypes = 'father' | 'mother' | 'grandpa' | 'grandma' | string;
